@@ -40,7 +40,7 @@ Additionally, if you deploy on Vercel, set up the following environment variable
 - SPOTIFY_CLIENT_SECRET=\<your-key>
 - OPENAI_API_KEY=\<your-key>
 - NEXTAUTH_URL=\<your-project-url>
-- NEXTAUTH_SECRET=\<your-secret>
+- NEXTAUTH_SECRET=\<your-key>
 
 A quick way of generating a NEXTAUTH_SECRET is to run this in your preferred terminal:
 
