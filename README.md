@@ -1,4 +1,8 @@
-# About
+| :warning: NOTE          |
+|:---------------------------|
+| In order to use my app, you need to be whitelisted within my app's registry on Spotify, as this is still classified as "In Development." In order to be whitelisted, just send me the email you used to sign up with Spotify. Alternatively, you can register your own app within Spotify's developer platform, and run this code locally.    |
+
+# Concierge
 Who are the people in your life who point you in the direction of new artists, songs, and genres of music?
 I am fortunate enough to have some friends who are always sharing some great music. They are usually the 
 ones who introduce me to new tracks, and I am always grateful for their recommendations.
