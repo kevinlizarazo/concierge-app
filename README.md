@@ -11,7 +11,7 @@ As a Spotify user, I started thinking about ways I could help people seek out th
 learn about their playlists.
 
 Introducing: Concierge. It's a tool that helps you learn more about your music. It uses your Spotify data to show 
-your top tracks and artists overdifferent time periods. You can also ask GPT to summarize that data. Soon, it will 
+your top tracks and artists over different time periods. You can also ask GPT to summarize that data. Soon, it will 
 be able to analyze your playlists and recommend new music according to filters you can set, like genre, mood, and 
 energy.
 

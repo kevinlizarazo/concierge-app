@@ -8,24 +8,12 @@ export const getCompletion = async (promptData: any, mode: string) => {
   let prompt = "";
 
   if (mode === "artists") {
-    prompt = `
-    You are a music critic analyzing my collection of music. 
-    Using the data below of my recently played top artists, 
-    how would you describe my recent musical tastes, in one 
-    conversational and analytical paragraph?
-
-    ${JSON.stringify(promptData)}
-    `;
+    prompt = `You are a music critic analyzing my collection of music. Using the data below of my recently played top artists, how would you describe my recent musical tastes, in one conversational and analytical paragraph?
+    ${JSON.stringify(promptData)}`;
   }
   if (mode === "tracks") {
-    prompt = `
-    You are a music critic analyzing my collection of music. 
-    Using the data below of my recently played top tracks, 
-    how would you describe my recent musical tastes, in one 
-    conversational and analytical paragraph?
-
-    ${JSON.stringify(promptData)}
-    `;
+    prompt = `You are a music critic analyzing my collection of music. Using the data below of my recently played top tracks, how would you describe my recent musical tastes, in one conversational and analytical paragraph?
+    ${JSON.stringify(promptData)}`;
   }
 
   console.log(prompt);
