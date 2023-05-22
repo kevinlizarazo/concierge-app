@@ -37,7 +37,8 @@ Information is used in the following ways:
 - AI Commentary: This App uses your listening history to provide AI-based commentary on your 
 recently played artists and tracks.
 - Improvement of Services: This app uses your information to understand how you engage 
-with this App and improve this App's services accordingly.
+with this App and improve this App's services accordingly. It only captures the links you visit,
+on Vercel's (this App's deployment service) analytics platform.
 
 ## Third-Party Services
 
