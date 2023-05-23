@@ -13,6 +13,7 @@ import {
 } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { SessionProvider, SessionProviderProps } from "next-auth/react";
+import { Analytics } from '@vercel/analytics/react';
 
 import NavBar from "@src/components/NavBar/NavBar";
 
@@ -60,6 +61,7 @@ export default function MyApp(props: MyAppProps) {
               <CssBaseline />
               <NavBar />
               <Component {...pageProps} />
+              <Analytics />
             </ThemeProvider>
           </CacheProvider>
         </Hydrate>
