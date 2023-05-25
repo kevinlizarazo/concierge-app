@@ -117,9 +117,8 @@ export default function Learn() {
             Here are your top artists and tracks over time. 
             You can select a time range for each category.
             Spotify provides three approximate time ranges: 
-            four weeks, six months, or "all-time" which is calculated 
-            from several years of data and including all new data 
-            as it becomes available.`,
+            four weeks, six months, or several years (which includes 
+            all new data as it becomes available).`,
               1000,
             ]}
           />
