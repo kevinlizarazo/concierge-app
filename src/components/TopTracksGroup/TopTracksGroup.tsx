@@ -103,7 +103,7 @@ export default function TopArtistsGroup(props: any) {
                 >
                   <MenuItem value={"short_term"}>four weeks</MenuItem>
                   <MenuItem value={"medium_term"}>six months</MenuItem>
-                  <MenuItem value={"long_term"}>one year</MenuItem>
+                  <MenuItem value={"long_term"}>"all-time"</MenuItem>
                 </Select>
               </FormControl>
             </Box>
