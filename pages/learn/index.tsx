@@ -115,8 +115,10 @@ export default function Learn() {
             message={[
               `
             Here are your top artists and tracks over time. 
-            You can select a time range for each category. 
-            You can also click on a track to play a preview.`,
+            You can select a time range for each category.
+            Spotify provides three approximate time ranges: 
+            four weeks, six months, or several years (which includes 
+            all new data as it becomes available).`,
               1000,
             ]}
           />
