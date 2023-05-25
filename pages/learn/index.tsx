@@ -119,8 +119,7 @@ export default function Learn() {
             Spotify provides three approximate time ranges: 
             four weeks, six months, or "all-time" which is calculated 
             from several years of data and including all new data 
-            as it becomes available. You can also click on a track 
-            to play a preview.`,
+            as it becomes available.`,
               1000,
             ]}
           />
