@@ -1,7 +1,7 @@
-// pages/api/spotify/users/topItems.ts
+// pages/api/spotify/me/topItems.ts
 
 import { NextApiRequest, NextApiResponse } from "next";
-import { getTopTracks } from "@src/api/spotify/webapi/users";
+import { getTopTracks } from "@src/api/spotify/webapi/me";
 import { TimeRange } from "@src/api/spotify/types/requests";
 import {
   SpotifyUserTopItems,

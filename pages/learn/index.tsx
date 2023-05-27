@@ -13,7 +13,7 @@ import ConciergeMessage from "@src/components/ConciergeMessage/ConciergeMessage"
 
 const getTopArtists = async (timeRange: string | null) => {
   const response = await fetch(
-    `/api/spotify/users/topArtists?timeRange=${timeRange}`
+    `/api/spotify/me/topArtists?timeRange=${timeRange}`
   ).then((res) => res.json());
 
   const data = response.items.map((item) => {
@@ -29,7 +29,7 @@ const getTopArtists = async (timeRange: string | null) => {
 
 const getTopTracks = async (timeRange: string | null) => {
   const response = await fetch(
-    `/api/spotify/users/topTracks?timeRange=${timeRange}`
+    `/api/spotify/me/topTracks?timeRange=${timeRange}`
   ).then((res) => res.json());
 
   const data = response.items.map((item) => {
