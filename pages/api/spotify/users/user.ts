@@ -1,7 +1,7 @@
-// pages/api/spotify/users/user.ts
+// pages/api/spotify/me/user.ts
 
 import { NextApiRequest, NextApiResponse } from "next";
-import { getUserProfile } from "@src/api/spotify/webapi/users";
+import { getUserProfile } from "@src/api/spotify/webapi/me";
 import { SpotifyUser } from "@src/api/spotify/types/responses";
 import { getSession } from "next-auth/react";
 

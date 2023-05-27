@@ -18,7 +18,7 @@ export default function Welcome() {
   const [flag, setFlag] = useState<boolean>(false);
 
   const getUserInfo = async () => {
-    const response = await fetch("/api/spotify/users/user").then((res) =>
+    const response = await fetch("/api/spotify/me/user").then((res) =>
       res.json()
     );
     setUserInfo(response);
