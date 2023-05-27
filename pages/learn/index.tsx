@@ -44,7 +44,7 @@ const getTopTracks = async (timeRange: string | null) => {
   return data;
 };
 
-const getGPTArtistsAnalysis = async (data) => {
+const getGPTAnalysis = async (data) => {
   const response = await fetch("/api/openai/promptHandler", {
     method: "POST",
     body: JSON.stringify(data),
@@ -98,12 +98,12 @@ export default function Learn() {
 
   const { data: topArtistsAnalysis } = useQuery(
     ["artistsAnalysis", topArtistKeys, employArtistGPT],
-    () => getGPTArtistsAnalysis({ data: topArtists, mode: "artists" }),
+    () => getGPTAnalysis({ data: topArtists, mode: "artists" }),
     { enabled: Boolean(employArtistGPT) }
   );
   const { data: topTracksAnalysis } = useQuery(
-    ["artistsAnalysis", topTrackKeys, employTrackGPT],
-    () => getGPTArtistsAnalysis({ data: topTrackKeys, mode: "tracks" }),
+    ["tracksAnalysis", topTrackKeys, employTrackGPT],
+    () => getGPTAnalysis({ data: topTrackKeys, mode: "tracks" }),
     { enabled: Boolean(employTrackGPT) }
   );
 
